@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             window.location.href = 'index.html';
                         }
                     } else {
-                        alert('Регистрация завершена! Теперь войдите в аккаунт.');
+                        alert('Регистрация завершена! Теперь войдите в аккаунт..');
                         toggleAuth.click(); 
                     }
                 } else {
@@ -144,3 +144,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
