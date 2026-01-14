@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         // ЛОГИКА ПЕРЕНАПРАВЛЕНИЯ
                         if (data.role === 'admin') {
                             alert(`Добро пожаловать, администратор ${data.username}!`);
-                            window.location.href = '/admin/admin.html'; // Путь к вашей админке
+                            window.location.href = 'admin.html'; // Путь к вашей админке
                         } else {
                             window.location.href = 'index.html';
                         }
@@ -142,4 +142,5 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         };
     }
+
 });
